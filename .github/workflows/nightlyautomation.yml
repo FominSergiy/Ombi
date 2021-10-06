@@ -1,0 +1,11 @@
+
+name: Nightly Automation
+on:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  finish:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Finish
+      run: echo "Finished"
